@@ -4,7 +4,7 @@
 This project is a feature-rich YouTube clone developed using the MERN stack, JWT for authentication, and Firebase Storage for video and file storage. The aim of this project is to replicate the core functionalities of YouTube, providing users with the ability to upload, view, like, comment, and interact with videos in a seamless manner.
 
 ## Demo
-A demonstration of the project can be found [here]([/manav.youtube-clone.mp4](https://github.com/chaudharimanav/youtube-clone/raw/main/manav.youtube-clone.mp4)).
+A demonstration of the project can be found [here](https://github.com/chaudharimanav/youtube-clone/raw/main/manav.youtube-clone.mp4).
 
 ## Features
 - **User Authentication:** Utilizing JWT for secure user authentication.
