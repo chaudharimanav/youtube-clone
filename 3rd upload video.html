@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>channel name</title>
+ <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+ <header>
+    <h1>Channel Name</h1>
+ </header>
+ <main>
+    <section class="video-upload">
+      <h2>Upload Video</h2>
+      <form>
+        <input type="file" id="videoFile" accept="video/*">
+        <label for="videoFile">Choose Video</label>
+        <br>
+        <input type="text" id="videoTitle" placeholder="Video Title">
+        <br>
+        <input type="submit" value="Upload">
+      </form>
+    </section>
+    <section class="video-display">
+      <h2>Display Videos</h2>
+      <div id="videoContainer"></div>
+    </section>
+ </main>
+ <script src="scrip1.js"></script>
+</body>
+</html>
