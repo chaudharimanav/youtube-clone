@@ -52,3 +52,10 @@ const uploadVideo = async (file, title) => {
           alert('You have subscribed to Easy Tutorials!');
       }
   }
+setInterval(function() {
+	document.getElementById('subscriber-count').innerText = Math.floor(Math.random() * 1000000) + 'K';
+}, 1000);
+
+// Update the view and video counts once on page load
+document.getElementById('view-count').innerText = Math.floor(Math.random() * 100000000) + 'M';
+document.getElementById('video-count').innerText = Math.floor(Math.random() * 1000);
